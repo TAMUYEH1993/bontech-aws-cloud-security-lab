@@ -1,6 +1,6 @@
 # BonTech AWS Cloud Security Engineering Lab
 
-![Architecture](assets/architecture.png)
+![Architecture](assets/architecture.svg)
 
 ## Overview
 
@@ -254,7 +254,7 @@ bontech-aws-cloud-security-lab/
 |-- .gitignore
 |
 |-- assets/
-|   `-- architecture.png
+|   `-- architecture.svg
 |
 |-- terraform/
 |   |-- versions.tf
