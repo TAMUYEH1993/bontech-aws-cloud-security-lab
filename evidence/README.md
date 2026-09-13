@@ -13,6 +13,32 @@ The goal is not to publish every screenshot from the private engineering report.
 | [`03-terraform-validation.md`](03-terraform-validation.md) | Terraform initialization, infrastructure-as-code workflow, and controlled change validation |
 | [`04-zero-drift.md`](04-zero-drift.md) | Final Terraform drift check showing configuration and deployed infrastructure aligned |
 
+## Sanitized Screenshot Gallery
+
+### 1. VPC Flow Logs
+
+![Sanitized VPC Flow Logs evidence](screenshots/01-vpc-flow-logs.jpg)
+
+Demonstrates network telemetry review and the use of VPC Flow Logs as evidence during investigation.
+
+### 2. CloudWatch Detection
+
+![Sanitized CloudWatch alarm evidence](screenshots/02-cloudwatch-alarm.jpg)
+
+Demonstrates the detection path from rejected network traffic to a CloudWatch security alarm.
+
+### 3. Terraform Apply and Controlled Change
+
+![Sanitized Terraform apply evidence](screenshots/03-terraform-apply.jpg)
+
+Demonstrates Infrastructure as Code execution and controlled resource change after reviewing Terraform's plan.
+
+### 4. Terraform Zero-Drift Validation
+
+![Sanitized Terraform zero-drift evidence](screenshots/04-terraform-zero-drift.jpg)
+
+Demonstrates the final validation checkpoint showing that the deployed infrastructure matched the declared Terraform configuration at the time of testing.
+
 ## Public Evidence Policy
 
 The complete private engineering report contains additional screenshots and identifiers that are intentionally **not** published here.
