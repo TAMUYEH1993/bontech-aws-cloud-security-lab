@@ -1,0 +1,6 @@
+# Example only. Copy to terraform.tfvars locally and replace with your own values.
+# terraform.tfvars is ignored by Git.
+
+aws_region       = "us-east-1"
+trusted_ssh_cidr = "203.0.113.10/32"
+key_name         = "replace-with-your-existing-ec2-keypair-name"
